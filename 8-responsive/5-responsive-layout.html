@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Responsive Layout</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+    <h1>
+        <center>Responsive Layout</center>
+        <hr>
+    </h1>
+    <div class="container">
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+    </div>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: bisque;
+        }
+
+        .one {
+            background-color: green;
+            margin: 5px;
+            height: 100px;
+            flex-basis: 20%;
+        }
+
+        @media screen and (max-width:800px) {
+            .one {
+                flex-basis: 40%;
+                background-color: red;
+            }
+        }
+    </style>
+
+</body>
+
+</html>

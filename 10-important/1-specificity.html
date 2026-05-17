@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Specificity</title>
+</head>
+
+<body>
+    <h1>
+        <center>Specificity</center>
+        <hr>
+    </h1>
+    <!-- specificity → which style will apply -->
+
+    <p id="one" class="text">Hello</p>
+
+    <style>
+        p {
+            color: blue;
+            /* lowest priority */
+        }
+
+        .text {
+            color: red;
+            /* higher than element */
+        }
+
+        #one {
+            color: green;
+            /* highest priority */
+        }
+    </style>
+
+    <!-- priority order -->
+    <!-- id > class > element -->
+
+</body>
+
+</html>

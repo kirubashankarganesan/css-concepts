@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Relative Position</title>
+    <style>
+        .one {
+            background-color: black;
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+        }
+
+        .two {
+            background-color: blue;
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            position: relative;
+            left: 30px;
+            bottom: 50px;
+            z-index: 1;
+        }
+
+        .three {
+            background-color: green;
+            width: 100px;
+            height: 50px;
+            margin: 5px;
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <center>Relative Position</center>
+        <hr>
+    </h1>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <!-- Moves element relative to its original position -->
+</body>
+
+</html>

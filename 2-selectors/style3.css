@@ -1,0 +1,10 @@
+#one {
+    background-color: black;
+    color: blue;
+}
+
+/* using # to specify in class selector */
+#two {
+    background-color: black;
+    color: rgb(177, 22, 35);
+}
