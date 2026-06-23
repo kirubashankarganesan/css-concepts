@@ -1,39 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
-<head>
+  <head>
     <title>Min Width</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-</head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  </head>
 
-<body>
+  <body>
     <h1>
-        <center>Min Width</center>
-        <hr>
+      <center>Min Width</center>
+      <hr />
     </h1>
     <div></div>
 
     <style>
+      div {
+        height: 50px;
+        background-color: black;
+      }
+
+      @media screen and (min-width: 900px) {
         div {
-            height: 50px;
-            background-color: black;
+          background-color: red;
         }
+      }
 
-        @media screen and (min-width:900px) {
-            div {
-                background-color: red;
-            }
+      @media screen and (min-width: 1200px) {
+        div {
+          background-color: yellow;
         }
-
-        @media screen and (min-width:1200px) {
-            div {
-                background-color: yellow;
-            }
-        }
+      }
     </style>
 
     <!-- in max width min number to max num give -->
-
-</body>
-
+  </body>
 </html>

@@ -1,37 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
-<head>
+  <head>
     <title>Grid Columns</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>
-        <center>Grid Columns</center>
-        <hr>
+      <center>Grid Columns</center>
+      <hr />
     </h1>
     <!-- grid-template-columns → number of columns -->
 
     <div class="container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
     </div>
 
     <style>
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            /* 3 equal columns */
-        }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* 3 equal columns */
+      }
 
-        .container div {
-            background-color: blue;
-            color: white;
-            padding: 10px;
-        }
+      .container div {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+      }
     </style>
-
-</body>
-
+  </body>
 </html>

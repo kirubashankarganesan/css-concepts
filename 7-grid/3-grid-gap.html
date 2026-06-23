@@ -1,38 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
-<head>
+  <head>
     <title>Grid Gap</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>
-        <center>Grid Gap</center>
-        <hr>
+      <center>Grid Gap</center>
+      <hr />
     </h1>
     <!-- gap → space between items -->
 
     <div class="container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
     </div>
 
     <style>
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 10px;
-            /* spacing */
-        }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        /* spacing */
+      }
 
-        .container div {
-            background-color: red;
-            color: white;
-            padding: 10px;
-        }
+      .container div {
+        background-color: red;
+        color: white;
+        padding: 10px;
+      }
     </style>
-
-</body>
-
+  </body>
 </html>
